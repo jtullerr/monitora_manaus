@@ -2,7 +2,7 @@
 name=Monitora Manaus
 qgisMinimumVersion=3.0
 description=Consulta e filtragem espacial de câmeras de segurança urbana no Centro de Manaus.
-version=1.0
+version=1.0.1
 author=João Vitor Tuller Campista
 email=jtuller@id.uff.br
 

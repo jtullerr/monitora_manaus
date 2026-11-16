@@ -2,7 +2,7 @@
 name=Monitora Manaus
 qgisMinimumVersion=3.0
 description=Consulta e filtragem espacial de câmeras de segurança urbana no Centro de Manaus.
-version=1.0.1
+version=1.0.2
 author=João Vitor Tuller Campista
 email=jtuller@id.uff.br
 
@@ -13,7 +13,7 @@ repository=https://github.com/jtullerr/monitora_manaus
 homepage=https://github.com/jtullerr/monitora_manaus
 
 hasProcessingProvider=no
-changelog=1.0 - Versão inicial com base de câmeras do Centro de Manaus e filtros por esfera, tipo e LGPD.
+changelog=1.0.2 - Tratamento de excecao com log e remocao de scripts auxiliares.
 
 tags=manaus, seguranca urbana, cameras, planejamento urbano, lgpd, auditoria
 category=Vector

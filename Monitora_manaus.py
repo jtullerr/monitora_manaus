@@ -113,8 +113,13 @@ class MonitoraManaus:
                 extensao_mapa.scale(1.2)
                 canvas.setExtent(extensao_mapa)
                 canvas.refresh()
-        except Exception:
-            pass
+        except Exception as erro:
+            from qgis.core import Qgis, QgsMessageLog
+            QgsMessageLog.logMessage(
+                f"Erro ao atualizar mapa: {erro}",
+                "Monitora Manaus",
+                Qgis.Warning,
+            )
 
     def encontrar_campo(self, camada, palavra_chave):
         """Encontra o nome real da coluna no GeoPackage."""
